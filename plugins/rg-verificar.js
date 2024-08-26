@@ -26,16 +26,16 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   global.db.data.users[m.sender].joincount += 5
   let sn = createHash('md5').update(m.sender).digest('hex')
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤\n`
-regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
+regbot += `•❥❥❥+:;;;:+❥❥❥+:;;;:+❥❥❥•\n`
 regbot += `「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}\n`
 regbot += `「✨️」𝗘𝗱𝗮𝗱: ${age} años\n`
-regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
+regbot += `•❥❥❥+:;;;:+❥❥❥+:;;;:+❥❥❥•\n`
 regbot += `「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:\n`
 regbot += `• 15 Estrellas 🌟\n`
 regbot += `• 5 MiniCoins 🪙\n`
 regbot += `• 245 Experiencia 💸\n`
 regbot += `• 12 Tokens 💰\n`
-regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
+regbot += `❥❥❥+:;;;:+❥❥❥+:;;;:+❥❥❥•\n`
 regbot += `${packname}`
 await m.react('📩')
 await conn.sendMini(m.chat, '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰', textbot, regbot, imagen1, imagen1, channel, m)
