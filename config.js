@@ -21,13 +21,12 @@ global.isBaileysFail = false
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ 𝐀𝐢 𝐘𝐚𝐞𝐦𝐨𝐫𝐢 - 𝐌𝐃 ✰⪜'
-global.botname = '𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶 - 𝗠𝗗 🍭'
-global.wm = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗕𝗼𝘁 - 𝗠𝗗 ⭐️'
-global.author = '𝖮𝖿𝖼.𝖣𝗂𝖾𝗀𝗈 👑'
-global.dev = '© Powered By Sunlight Team ⚡︎'
-6
-global.textbot = '𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
+global.packname = '⪛✰ 𝙽𝚒𝚕𝚘𝚞𝙱𝚘𝚝 - 𝙼𝙳 ✰⪜'
+global.botname = '𝙉𝙞𝙡𝙤𝙪 - 𝗠𝗗 🍭'
+global.wm = '𝑵𝒊𝒍𝒐𝒖 - 𝑩𝒐𝒕 - 𝑴𝑫 ⭐️'
+global.author = '𝑬𝒏𝒛𝒊𝒕𝒐𝑶𝒇𝒄 👑
+global.textbot = '𝐍𝐢𝐥𝐨𝐮-𝐁𝐨𝐭-𝐌𝐃
+ : 𝑬𝒏𝒛𝒊𝒕𝒐𝑶𝒇𝒄 🚩'
 global.vs = '2.0.6'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -42,16 +41,15 @@ global.miniurl = fs.readFileSync('./storage/img/miniurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.grupo = 'https://chat.whatsapp.com/BeukLUNoHtNJDKmMDTfQnd' //YaemoriBot
-global.grupo2 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //YaemoriBot2
-global.grupo3 = 'https://chat.whatsapp.com/Fy74b6fgE9SJJpHVi6CKJY' //team oficial
-global.grupo4 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot & YaemoriBot
-global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'
-global.channel2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z'
-global.md = 'https://github.com/Dev-Diego/YaemoriBot-MD' 
-global.yt = 'https://www.youtube.com/@OfcDiego'
-global.tiktok = 'https://tiktok.com/@theyaemoribot'
-global.correo = 'theyaemoribot@gmail.com'
+global.grupo = 'https://chat.whatsapp.com/IICmKudSbuGBFKMPZitp0h' //YaemoriBot
+global.grupo2 = 'https://chat.whatsapp.com/IICmKudSbuGBFKMPZitp0h' //YaemoriBot2
+global.grupo4 = 'https://chat.whatsapp.com/IICmKudSbuGBFKMPZitp0h' //GataBot & YaemoriBot
+global.channel = 'https://www.whatsapp.com/channel/0029VajIId22phHQLslZah1n'
+global.channel2 = 'https://www.whatsapp.com/channel/0029VajIId22phHQLslZah1n'
+global.md = '' 
+global.yt = ''
+global.tiktok = ''
+global.correo = 'mtiasjesus9@gmail.com'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
