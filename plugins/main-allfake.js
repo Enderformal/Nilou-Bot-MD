@@ -34,7 +34,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //creador y otros
 global.creador = 'Wa.me/+5491168758497'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'https://wa.me/message/O4QPPHZOFDOJI1'
+global.asistencia = ''
 global.namechannel = '『✯ New NilouBot-MD ✯』'
 
 //Reacciones De Comandos.!
@@ -50,10 +50,10 @@ global.emoji4 = '🍭'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
+global.wait = '🕒 *𝑬𝒔𝒑𝒆𝒓𝒂 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐, 𝑺𝒐𝒚 𝑳𝒆𝒏𝒕𝒂 ...*';
+global.waitt = '🕒 *𝑬𝒔𝒑𝒆𝒓𝒂 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐, 𝑺𝒐𝒚 𝑳𝒆𝒏𝒕𝒂 ...*';
+global.waittt = '🕒 *𝑬𝒔𝒑𝒆𝒓𝒂 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐, 𝑺𝒐𝒚 𝑳𝒆𝒏𝒕𝒂 ...*';
+global.waitttt = '🕒 *𝑬𝒔𝒑𝒆𝒓𝒂 𝑼𝒏 𝑴𝒐𝒎𝒆𝒏𝒕𝒐, 𝑺𝒐𝒚 𝑳𝒆𝒏𝒕𝒂 ...*';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VajIId22phHQLslZah1n'  
