@@ -4,43 +4,43 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'INFO 📚',
-  'buscador': 'BUSQUEDAS 🔎',
-  'fun': 'JUEGOS 🎮',
-  'serbot': 'SUB BOTS 🤖',
-  'rpg': 'RPG 🌠',
-  'rg': 'REGISTRO 📁',
-  'xp': 'EXP 🏷',
-  'sticker': 'STICKERS 🏞',
-  'anime': 'ANIMES 🍧',
-  'database': 'DATABASE ✨️',
-  'fix': 'FIXMSGESPERA 💭',
-  'grupo': 'GRUPOS 👥',
-  'nable': 'ON / OFF 📴', 
-  'descargas': 'DESCARGAS 📥',
-  'tools': 'HERRAMIENTAS 🔧',
-  'info': 'INFORMACIÓN 🐢',
-  'nsfw': 'NSFW 🔞', 
-  'owner': 'CREADOR 👑', 
-  'audio': 'AUDIOS 🔉', 
-  'ai': 'AI 🌹',
-  'transformador': 'CONVERTIDORES 🚩',
+  'main': 'I N F O 📚',
+  'buscador': 'B U S Q U E D A S 🔎',
+  'fun': 'J U E G O S 🎮',
+  'serbot': 'S U B B O T S 🤖',
+  'rpg': 'R P G 🌠',
+  'rg': 'R E G I S T R O 📁',
+  'xp': 'E X P 🏷',
+  'sticker': 'S T I C K E R S 🏞',
+  'anime': 'A N I M E S 🍧',
+  'database': 'D A T A B A S E ✨️',
+  'fix': 'F I X M S G E S P E R A 💭',
+  'grupo': 'G R U P O S 👥',
+  'nable': 'O N / O F F 📴', 
+  'descargas': 'D E S C A R G A S 📥',
+  'tools': 'H E R R A M I E N T A S 🔧',
+  'info': 'I N F O R M A C I Ó N 🐢',
+  'nsfw': 'N S F W 🔞', 
+  'owner': 'C R E A D O R 👑', 
+  'audio': 'A U D I O S 🔉', 
+  'ai': 'A I 🌹',
+  'transformador': 'C O N V E R T I D O R E S 🚩',
 }
 
 const defaultMenu = {
-  before: `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
+  before: `*ᴠᴏʟᴜᴍᴇ : ▮▮▮▮▮▮▯▯▯*
 
-“ Hola *%name* soy *Ai-Yaemori*, %greeting ”
+“ Hola *%name* soy *💥 ℕ𝔦Ļσ𝓾вόｔ-Μᗪ 🔥*, %greeting ”
 
-┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
-┃⋄ 🍟 *Bot:* Ai Yaemori - MD 
+┏━「🐢⸽⃕ *ⓘᑎᶠⓞˣⓤ𝕤ｅ𝐑* 🍁⃨፝⃕✰」━⊜
+┃⋄ 🍟 *Bot:* 💝 ⓃᎥℓｏỮ𝒷𝑜t-𝐦ᗪ 🍟
 ┃⋄ 🍂 *Modo* Público
 ┃⋄ ✨️ *Baileys:* Multi Device
 ┃⋄ ⌛️ *Tiempo Activo:* %muptime
 ┃⋄ 🫂 *Usuarios:* %totalreg
 ┗━━◘
 %readmore
-┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
+┏━「🐢⸽⃕ *𝐢𝐧Ⓕ𝓸𝔵𝓊𝐬Ｅ𝓡* 🍁⃨፝⃕✰」━⊜
 ┃⋄ 🚩 *Cliente:* %name
 ┃⋄ 💠 *Exp:* %exp
 ┃⋄ 🌟 *Estrellas:* %estrellas
@@ -48,13 +48,13 @@ const defaultMenu = {
 ┃⋄ ⚓ *Rango:* %role
 ┗━━◘
 %readmore
-*─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ─*
+*❥•°❀°•༢✧ ೃ༄*ੈ✩*
 
-\t*L I S T A  -  D E  -  C O M A N D O S* 
+\t*❥•°❀°•༢𝓲ภＦＯ-вό𝓣✧ ೃ༄*ੈ✩* 
 `.trimStart(),
-    header: '*┏━⊜「 %category 」*',
-  body: '*┃›* %cmd',
-  footer: '*┗━⬣*\n',
+    header: '*┏↶*ೃ✧˚. ❃ ↷ ˊ-「 %category 」*',
+  body: '*╎ೃ‧₊›* %cmd',
+  footer: '*┗➮.;°❀‿‿‿‿*\n',
   after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -152,7 +152,7 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-await m.react('⭐️') 
+await m.react('🍬') 
 
 conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: dev, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen1, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: m})
 
