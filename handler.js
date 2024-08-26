@@ -484,16 +484,16 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> DevDiego.', 
-owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
-mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.*', 
-premium: '「🍧」 *Esta función solo es para usuarios Premium.', 
-group: '「🐢」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
-unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Yaemori.666*',
-restrict: '「💫」 *Esta característica esta desactivada.*'
+rowner: '「👑」 *𝑬𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏 𝒔𝒐𝒍𝒐 𝒑𝒖𝒆𝒅𝒆 𝒔𝒆𝒓 𝒖𝒔𝒂𝒅𝒂 𝒑𝒐𝒓 𝒎𝒊 𝒄𝒓𝒆𝒂𝒅𝒐𝒓*\n\n> EnzitoOfc.', 
+owner: '「👑」 *𝑬𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏 𝒔𝒐𝒍𝒐 𝒑𝒖𝒆𝒅𝒆 𝒔𝒆𝒓 𝒖𝒔𝒂𝒅𝒂 𝒑𝒐𝒓 𝒎𝒊 𝒅𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐𝒓.', 
+mods: '「🤴🏻」 *𝑬𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏 𝒔𝒐𝒍𝒐 𝒑𝒖𝒆𝒅𝒆 𝒔𝒆𝒓 𝒖𝒔𝒂𝒅𝒂 𝒑𝒐𝒓 𝒎𝒊𝒔 𝒅𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐𝒓𝒆𝒔.*', 
+premium: '「🍧」 *𝑬𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏 𝒔𝒐𝒍𝒐 𝒆𝒔 𝒑𝒂𝒓𝒂 𝒖𝒔𝒖𝒂𝒓𝒊𝒐𝒔 𝑷𝒓𝒆𝒎𝒊𝒖𝒎.', 
+group: '「🐢」 *𝑬𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊𝒐𝒏 𝒔𝒐𝒍𝒐 𝒑𝒖𝒆𝒅𝒆 𝒔𝒆𝒓 𝒆𝒋𝒆𝒄𝒖𝒕𝒂𝒅𝒂 𝒆𝒏 𝒈𝒓𝒖𝒑𝒐𝒔.*', 
+private: '「🍭」 *𝑬𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏 𝒔𝒐𝒍𝒐 𝒑𝒖𝒆𝒅𝒆 𝒔𝒆𝒓 𝒖𝒔𝒂𝒅𝒂 𝒆𝒏 𝒄𝒉𝒂𝒕 𝒑𝒓𝒊𝒗𝒂𝒅𝒐.*', 
+admin: '「👑」 *𝑬𝒔𝒕𝒆 𝒄𝒐𝒎𝒂𝒏𝒅𝒐 𝒔𝒐𝒍𝒐 𝒑𝒖𝒆𝒅𝒆 𝒔𝒆𝒓 𝒖𝒔𝒂𝒅𝒐 𝒑𝒐𝒓 𝒂𝒅𝒎𝒊𝒏𝒔.*', 
+botAdmin: '「🚩」 *𝑷𝒂𝒓𝒂 𝒖𝒔𝒂𝒓 𝒆𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏 𝒅𝒆𝒃𝒐 𝒔𝒆𝒓 𝒂𝒅𝒎𝒊𝒏.*', 
+unreg: '「🍟」 *¡𝑯𝒆𝒚! 𝒏𝒐 𝒆𝒔𝒕𝒂𝒔 𝒓𝒆𝒈𝒊𝒔𝒕𝒓𝒂𝒅𝒐, 𝒓𝒆𝒈𝒊𝒔𝒕𝒓𝒆𝒔𝒆 𝒑𝒂𝒓𝒂 𝒖𝒔𝒂𝒓 𝒆𝒔𝒕𝒂 𝒇𝒖𝒏𝒄𝒊ó𝒏*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg NilouBot.222*',
+restrict: '「💫」 *𝑬𝒔𝒕𝒂 𝒄𝒂𝒓𝒂𝒄𝒕𝒆𝒓í𝒔𝒕𝒊𝒄𝒂 𝒆𝒔𝒕𝒂 𝒅𝒆𝒔𝒂𝒄𝒕𝒊𝒗𝒂𝒅𝒂.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 
